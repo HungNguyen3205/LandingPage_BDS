@@ -52,22 +52,22 @@ export const Overview: React.FC = () => {
           <div className="lg:col-span-6 flex flex-col items-start lg:pl-4">
             {/* Section Index / Label */}
             <div className="flex items-center space-x-2 text-champagne text-xs sm:text-[13px] font-semibold tracking-[0.25em] uppercase mb-4">
-              <span>01 / CÂU CHUYỆN VINHOMES</span>
+              <span>01 / CÂU CHUYỆN VINHOMES HẢI VÂN BAY</span>
             </div>
 
             {/* Heading: Elegantly structured into 2 lines */}
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-[44px] font-normal text-forest leading-[1.2] tracking-tight mb-6">
-              Một chốn riêng. <br />
-              <span className="text-forest-light font-serif">Một chuẩn sống khác biệt.</span>
+              Thành phố nghỉ dưỡng. <br />
+              <span className="text-forest-light font-serif">Bên vịnh di sản tuyệt mỹ.</span>
             </h2>
 
-            {/* Narrative Body: ~95 words, sincere and evocative */}
+            {/* Narrative Body: Authentic project story from haivanbaydanang.com.vn */}
             <div className="text-ink-muted text-base sm:text-[15.5px] leading-relaxed space-y-4 mb-8">
               <p>
-                Được kiến tạo từ chuẩn mực sống thượng lưu và phồn vinh, VINHOMES mang đến không gian an trú lý tưởng cho những chủ nhân danh giá. Nơi đây xóa nhòa mọi giới hạn giữa kiến trúc hiện đại và hệ sinh thái xanh mát ngập tràn năng lượng.
+                Tọa lạc tại vị trí độc tôn nơi chân đèo Hải Vân hướng trọn vịnh biển Đà Nẵng, <strong className="text-forest font-semibold">Vinhomes Hải Vân Bay</strong> là đại đô thị nghỉ dưỡng sinh thái quy mô 240ha đẳng cấp quốc tế, mở ra biểu tượng sống mới cho giới tinh hoa.
               </p>
               <p>
-                Đây là nơi mỗi sớm mai bắt đầu bằng sự thanh bình thuần khiết và mỗi buổi chiều là khoảnh khắc sum vầy trọn vẹn bên những người thân yêu, trong một quần thể đô thị tinh hoa và an ninh tuyệt đối.
+                Nơi đây dung hòa trọn vẹn giữa nhịp sống phồn vinh của hệ sinh thái Vingroup toàn diện và cảnh sắc thiên nhiên kỳ vĩ: bờ biển riêng 2km phẳng lặng, dòng suối tự nhiên uốn lượn cùng không gian xanh mát quanh năm.
               </p>
             </div>
 
@@ -78,10 +78,10 @@ export const Overview: React.FC = () => {
                   <div className="w-4 h-4 rounded-full bg-champagne/20 text-champagne flex items-center justify-center shrink-0">
                     <Check className="w-2.5 h-2.5 stroke-[3]" />
                   </div>
-                  <span>Thiết kế mở</span>
+                  <span>Vịnh di sản 240ha</span>
                 </div>
                 <p className="text-xs text-ink-muted leading-normal">
-                  Đón gió và ánh sáng tự nhiên ngập tràn.
+                  2km bờ biển riêng và suối tự nhiên.
                 </p>
               </div>
 
@@ -90,10 +90,10 @@ export const Overview: React.FC = () => {
                   <div className="w-4 h-4 rounded-full bg-champagne/20 text-champagne flex items-center justify-center shrink-0">
                     <Check className="w-2.5 h-2.5 stroke-[3]" />
                   </div>
-                  <span>Vật liệu tự nhiên</span>
+                  <span>Hệ sinh thái Vingroup</span>
                 </div>
                 <p className="text-xs text-ink-muted leading-normal">
-                  Gỗ, đá mộc và ánh kim chọn lọc tinh tế.
+                  Vincom, Vinschool & Vinmec trọn vẹn.
                 </p>
               </div>
 
@@ -102,10 +102,10 @@ export const Overview: React.FC = () => {
                   <div className="w-4 h-4 rounded-full bg-champagne/20 text-champagne flex items-center justify-center shrink-0">
                     <Check className="w-2.5 h-2.5 stroke-[3]" />
                   </div>
-                  <span>Không gian riêng tư</span>
+                  <span>Đặc quyền thượng lưu</span>
                 </div>
                 <p className="text-xs text-ink-muted leading-normal">
-                  Khoảng đệm cảnh quan giữ trọn sự tĩnh lặng.
+                  Bến du thuyền quốc tế và clubhouse.
                 </p>
               </div>
             </div>

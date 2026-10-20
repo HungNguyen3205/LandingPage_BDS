@@ -50,7 +50,7 @@ if (!empty($data['_hp_company'])) {
     echo json_encode([
         'success' => true,
         'statusCode' => 'SUCCESS',
-        'registrationCode' => 'AB-FILTERED',
+        'registrationCode' => 'VH-FILTERED',
         'message' => 'Yêu cầu tư vấn của bạn đã được ghi nhận.'
     ]);
     exit;
@@ -159,7 +159,7 @@ if (!empty($botToken) && !empty($chatId)) {
     $safeSource = htmlspecialchars($sourceText, ENT_QUOTES, 'UTF-8');
     $safeNotes = !empty($notes) ? htmlspecialchars(mb_substr($notes, 0, 500), ENT_QUOTES, 'UTF-8') : '<i>Không có ghi chú thêm</i>';
 
-    $msg = "🌿 <b>ĐĂNG KÝ TƯ VẤN MỚI — VINHOMES</b>\n\n"
+    $msg = "🌿 <b>ĐĂNG KÝ TƯ VẤN MỚI — VINHOMES HẢI VÂN BAY</b>\n\n"
          . "▫️ <b>Mã đăng ký:</b> <code>{$registrationCode}</code>\n"
          . "▫️ <b>Thời gian:</b> {$now} (Giờ VN)\n"
          . "▫️ <b>Khách hàng:</b> {$safeName}\n"

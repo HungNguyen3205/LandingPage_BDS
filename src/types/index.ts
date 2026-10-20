@@ -1,4 +1,4 @@
-export type ProductCategory = 'all' | 'villa' | 'apartment';
+export type ProductCategory = 'all' | 'villa' | 'townhouse' | 'shophouse' | 'apartment';
 
 export interface NavItem {
   label: string;
@@ -17,7 +17,7 @@ export interface ValueItem {
 export interface ProductItem {
   id: string;
   name: string;
-  category: 'villa' | 'apartment';
+  category: 'villa' | 'townhouse' | 'shophouse' | 'apartment';
   categoryLabel: string;
   area: string;
   priceNote: string;

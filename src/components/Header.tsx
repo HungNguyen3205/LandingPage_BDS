@@ -128,10 +128,10 @@ export const Header: React.FC = () => {
               }`}>
                 VINHOMES
               </span>
-              <span className={`text-[9px] sm:text-[10px] tracking-[0.3em] font-medium transition-colors duration-200 ${
+              <span className={`text-[9px] sm:text-[10px] tracking-[0.25em] font-medium transition-colors duration-200 ${
                 showSolidHeader ? 'text-ink-muted' : 'text-champagne-light/90'
               }`}>
-                LUXURY RESIDENCES
+                HẢI VÂN BAY ĐÀ NẴNG
               </span>
             </Link>
 
@@ -233,8 +233,8 @@ export const Header: React.FC = () => {
               <span className="font-serif text-lg font-bold tracking-[0.15em] text-forest">
                 VINHOMES
               </span>
-              <span className="text-[9px] tracking-[0.25em] text-ink-muted font-medium">
-                LUXURY RESIDENCES
+              <span className="text-[9px] tracking-[0.2em] text-ink-muted font-medium">
+                HẢI VÂN BAY ĐÀ NẴNG
               </span>
             </div>
             <button

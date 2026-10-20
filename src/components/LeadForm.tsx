@@ -362,9 +362,10 @@ export const LeadForm: React.FC<LeadFormProps> = ({
               className="w-full px-4 py-3 rounded bg-white border border-forest/15 text-sm text-forest focus:outline-none focus:ring-2 focus:ring-champagne transition-colors cursor-pointer"
             >
               <option value="Cần tư vấn thêm">Cần tư vấn thêm / Tìm hiểu chung</option>
-              <option value="Ocean Villa">Ocean Villa (Biệt thự nghỉ dưỡng mặt biển)</option>
-              <option value="Garden Residence">Garden Residence (Biệt thự sân vườn xanh)</option>
-              <option value="Sky Collection">Sky Collection (Căn hộ nghỉ dưỡng tầng cao)</option>
+              <option value="Biệt Thự Đơn Lập (Lâm Phong)">Biệt Thự Đơn Lập (Lâm Phong - Từ 18,1 tỷ)</option>
+              <option value="Biệt Thự Song Lập (Bạch Vân)">Biệt Thự Song Lập (Bạch Vân - Từ 9,1 tỷ)</option>
+              <option value="Nhà Phố Liền Kề (Hồng Châu & Ánh Ngọc)">Nhà Phố Liền Kề (Hồng Châu & Ánh Ngọc - Từ 7,3 tỷ)</option>
+              <option value="Shophouse & Căn Hộ">Shophouse & Căn Hộ Nghỉ Dưỡng</option>
             </select>
           </div>
         </div>

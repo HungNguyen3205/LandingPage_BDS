@@ -84,20 +84,34 @@ export const Collection: React.FC<CollectionProps> = ({ onSelectProduct }) => {
           <button
             type="button"
             role="tab"
-            aria-selected={activeTab === 'apartment'}
-            onClick={() => setActiveTab('apartment')}
+            aria-selected={activeTab === 'townhouse'}
+            onClick={() => setActiveTab('townhouse')}
             className={`px-5 py-2.5 rounded-luxury text-sm font-medium tracking-wide transition-all duration-200 whitespace-nowrap focus:outline-none focus-visible:ring-2 focus-visible:ring-champagne ${
-              activeTab === 'apartment'
+              activeTab === 'townhouse'
                 ? 'bg-forest text-white shadow-sm'
                 : 'bg-white/80 text-ink-muted hover:text-forest hover:bg-white border border-forest/10'
             }`}
           >
-            Căn hộ ({productsData.filter(p => p.category === 'apartment').length})
+            Nhà liền kề ({productsData.filter(p => p.category === 'townhouse').length})
+          </button>
+
+          <button
+            type="button"
+            role="tab"
+            aria-selected={activeTab === 'shophouse'}
+            onClick={() => setActiveTab('shophouse')}
+            className={`px-5 py-2.5 rounded-luxury text-sm font-medium tracking-wide transition-all duration-200 whitespace-nowrap focus:outline-none focus-visible:ring-2 focus-visible:ring-champagne ${
+              activeTab === 'shophouse'
+                ? 'bg-forest text-white shadow-sm'
+                : 'bg-white/80 text-ink-muted hover:text-forest hover:bg-white border border-forest/10'
+            }`}
+          >
+            Thương mại & Căn hộ ({productsData.filter(p => p.category === 'shophouse').length})
           </button>
         </div>
 
         {/* Product Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6">
           {filteredProducts.map((product) => (
             <article
               key={product.id}

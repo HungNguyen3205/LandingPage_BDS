@@ -36,26 +36,26 @@ export const Hero: React.FC = () => {
       </div>
 
       {/* Hero Content Container */}
-      <div className="relative z-10 w-full max-w-content mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-20 lg:pt-36 lg:pb-24">
-        <div className="max-w-2xl text-left">
+      <div className="relative z-10 w-full max-w-content mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-24 lg:pt-36 lg:pb-28">
+        <div className="max-w-4xl text-left">
           {/* Top Label */}
-          <div className="inline-flex items-center space-x-2.5 px-3 py-1.5 rounded-full bg-forest/40 border border-champagne/30 backdrop-blur-md mb-6">
+          <div className="inline-flex items-center space-x-2.5 px-3 py-1.5 rounded-full bg-forest/50 border border-champagne/30 backdrop-blur-md mb-6">
             <span className="w-1.5 h-1.5 rounded-full bg-champagne animate-pulse" />
             <span className="text-xs sm:text-[13px] font-medium tracking-[0.2em] text-champagne-light uppercase">
-              Không gian sống lấy cảm hứng từ biển
+              VINHOMES HẢI VÂN BAY • THÀNH PHỐ NGHỈ DƯỠNG BÊN VỊNH DI SẢN
             </span>
           </div>
 
           {/* Main H1 - Single H1 on the page as required */}
-          <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-[68px] font-normal text-white leading-[1.12] tracking-tight mb-6">
-            Nơi biển chạm đến{' '}
+          <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-[64px] font-normal text-white leading-[1.12] tracking-tight mb-6">
+            Kiệt tác nghỉ dưỡng ven biển{' '}
             <span className="italic font-normal text-champagne block sm:inline font-serif">
-              bình yên.
+              đẳng cấp quốc tế.
             </span>
           </h1>
 
           {/* Subtitle / Description: 2-3 lines max */}
-          <p className="text-sand/90 text-base sm:text-lg font-light leading-relaxed max-w-xl mb-10">
+          <p className="text-sand/90 text-base sm:text-lg font-light leading-relaxed max-w-2xl mb-8">
             {projectMeta.secondaryTagline}
           </p>
 
@@ -77,6 +77,30 @@ export const Hero: React.FC = () => {
             >
               <span>Nhận tư vấn</span>
             </a>
+          </div>
+
+          {/* 5 Key Project Statistics Bar from haivanbaydanang.com.vn */}
+          <div className="mt-10 pt-7 border-t border-white/15 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6">
+            <div className="flex flex-col">
+              <span className="font-serif text-2xl sm:text-3xl font-bold text-champagne tracking-tight">1.000+</span>
+              <span className="text-[12px] sm:text-xs text-sand/80 uppercase tracking-wider font-light mt-0.5">Sản phẩm</span>
+            </div>
+            <div className="flex flex-col">
+              <span className="font-serif text-2xl sm:text-3xl font-bold text-champagne tracking-tight">240 ha</span>
+              <span className="text-[12px] sm:text-xs text-sand/80 uppercase tracking-wider font-light mt-0.5">Quy mô dự án</span>
+            </div>
+            <div className="flex flex-col">
+              <span className="font-serif text-2xl sm:text-3xl font-bold text-champagne tracking-tight">2 km</span>
+              <span className="text-[12px] sm:text-xs text-sand/80 uppercase tracking-wider font-light mt-0.5">Đường bờ biển</span>
+            </div>
+            <div className="flex flex-col">
+              <span className="font-serif text-2xl sm:text-3xl font-bold text-champagne tracking-tight">50+</span>
+              <span className="text-[12px] sm:text-xs text-sand/80 uppercase tracking-wider font-light mt-0.5">Tiện ích 5 sao</span>
+            </div>
+            <div className="flex flex-col col-span-2 sm:col-span-1">
+              <span className="font-serif text-2xl sm:text-3xl font-bold text-champagne tracking-tight">30.000+</span>
+              <span className="text-[12px] sm:text-xs text-sand/80 uppercase tracking-wider font-light mt-0.5">Cư dân tương lai</span>
+            </div>
           </div>
         </div>
       </div>

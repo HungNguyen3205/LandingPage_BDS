@@ -12,66 +12,91 @@ export const Location: React.FC = () => {
             <span>04 / VỊ TRÍ & LIÊN KẾT KHÔNG GIAN</span>
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-[44px] font-normal text-forest leading-[1.2] tracking-tight mb-4">
-            Đủ gần phồn hoa. <br />
-            <span className="text-forest-light font-serif">Đủ riêng để tận hưởng.</span>
+            Tựa sơn hướng hải. <br />
+            <span className="text-forest-light font-serif">Tâm điểm giao thương Tây Bắc Đà Nẵng.</span>
           </h2>
           <p className="text-ink-muted text-base leading-relaxed">
-            Lấy cảm hứng từ cung đường ven biển tuyệt mỹ của Đà Nẵng, vị trí được định hướng để mang đến sự cân bằng hoàn hảo giữa nhịp sống đô thị hiện đại và sự an nhiên tuyệt đối bên bờ đại dương.
+            Tọa lạc kề cận vịnh Hải Vân nguyên sơ và cung đèo di sản tráng lệ, Vinhomes Hải Vân Bay sở hữu vị thế phong thủy thịnh vượng hiếm có, kết nối đồng bộ qua trục đại lộ Nguyễn Tất Thành nối dài và hệ thống cao tốc đối ngoại.
           </p>
         </div>
 
         {/* 2-Column Content: Left Details & Pillars, Right Visual & Illustrative Schematic */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start">
           
-          {/* Left: 3 Core Connection Axes */}
-          <div className="lg:col-span-5 space-y-6">
-            <div className="bg-white p-6 sm:p-7 rounded-luxury border border-forest/10 shadow-subtle flex items-start space-x-4">
+          {/* Left: 3 Core Connection Axes + Travel Times */}
+          <div className="lg:col-span-5 space-y-5">
+            <div className="bg-white p-5 sm:p-6 rounded-luxury border border-forest/10 shadow-subtle flex items-start space-x-4">
               <div className="w-11 h-11 rounded-full bg-sand flex items-center justify-center text-forest shrink-0 border border-forest/10">
                 <Waves className="w-5 h-5 text-champagne" strokeWidth={1.75} />
               </div>
               <div>
-                <h3 className="font-serif text-lg font-medium text-forest mb-1.5">
-                  Thiên nhiên & Vịnh biển
+                <h3 className="font-serif text-lg font-medium text-forest mb-1">
+                  Thiên nhiên & Vịnh biển Hải Vân
                 </h3>
                 <p className="text-ink-muted text-sm leading-relaxed">
-                  Trọn vẹn bầu không khí đại dương thanh khiết, ngắm nhìn bình minh rạng rỡ và hoàng hôn buông dài trên làn nước biếc.
+                  2km bờ biển riêng tư phẳng lặng, đón gió đại dương thanh mát và tầm nhìn ôm trọn vịnh biển di sản.
                 </p>
               </div>
             </div>
 
-            <div className="bg-white p-6 sm:p-7 rounded-luxury border border-forest/10 shadow-subtle flex items-start space-x-4">
+            <div className="bg-white p-5 sm:p-6 rounded-luxury border border-forest/10 shadow-subtle flex items-start space-x-4">
               <div className="w-11 h-11 rounded-full bg-sand flex items-center justify-center text-forest shrink-0 border border-forest/10">
                 <Building2 className="w-5 h-5 text-champagne" strokeWidth={1.75} />
               </div>
               <div>
-                <h3 className="font-serif text-lg font-medium text-forest mb-1.5">
-                  Nhịp sống Đô thị
+                <h3 className="font-serif text-lg font-medium text-forest mb-1">
+                  Nhịp sống Trung tâm Đô thị
                 </h3>
                 <p className="text-ink-muted text-sm leading-relaxed">
-                  Thuận tiện tiếp cận các trục giao thông đối ngoại, hệ thống dịch vụ y tế, giáo dục và ẩm thực phong phú của thành phố biển.
+                  Thuận tiện di chuyển vào trung tâm quận Liên Chiểu và các cây cầu biểu tượng bắc qua dòng sông Hàn.
                 </p>
               </div>
             </div>
 
-            <div className="bg-white p-6 sm:p-7 rounded-luxury border border-forest/10 shadow-subtle flex items-start space-x-4">
+            <div className="bg-white p-5 sm:p-6 rounded-luxury border border-forest/10 shadow-subtle flex items-start space-x-4">
               <div className="w-11 h-11 rounded-full bg-sand flex items-center justify-center text-forest shrink-0 border border-forest/10">
                 <Palmtree className="w-5 h-5 text-champagne" strokeWidth={1.75} />
               </div>
               <div>
-                <h3 className="font-serif text-lg font-medium text-forest mb-1.5">
-                  Quần thể Nghỉ dưỡng
+                <h3 className="font-serif text-lg font-medium text-forest mb-1">
+                  Cung đường Di sản Miền Trung
                 </h3>
                 <p className="text-ink-muted text-sm leading-relaxed">
-                  Nằm trên cung đường di sản và các tổ hợp du lịch nghỉ dưỡng, sân golf chuẩn quốc tế ven bờ vịnh.
+                  Cửa ngõ kết nối cố đô Huế, vịnh Lăng Cô, thánh địa Mỹ Sơn và di sản văn hóa thế giới Phố cổ Hội An.
                 </p>
               </div>
             </div>
 
+            {/* Travel Time Milestones from haivanbaydanang.com.vn */}
+            <div className="bg-white p-5 sm:p-6 rounded-luxury border border-forest/10 shadow-subtle">
+              <h3 className="font-serif text-xs font-semibold text-forest mb-3.5 uppercase tracking-wider text-champagne">
+                Thời Gian Kết Nối Trọng Điểm
+              </h3>
+              <div className="grid grid-cols-2 gap-3.5">
+                <div className="border-l-2 border-champagne pl-3 py-0.5">
+                  <span className="font-serif text-lg sm:text-xl font-bold text-forest block leading-tight">15 Phút</span>
+                  <span className="text-xs text-ink-muted">Ga Đà Nẵng</span>
+                </div>
+                <div className="border-l-2 border-champagne pl-3 py-0.5">
+                  <span className="font-serif text-lg sm:text-xl font-bold text-forest block leading-tight">20 Phút</span>
+                  <span className="text-xs text-ink-muted">Trung tâm TP Đà Nẵng</span>
+                </div>
+                <div className="border-l-2 border-champagne pl-3 py-0.5">
+                  <span className="font-serif text-lg sm:text-xl font-bold text-forest block leading-tight">25 Phút</span>
+                  <span className="text-xs text-ink-muted">Phố cổ Hội An</span>
+                </div>
+                <div className="border-l-2 border-champagne pl-3 py-0.5">
+                  <span className="font-serif text-lg sm:text-xl font-bold text-forest block leading-tight">30 Phút</span>
+                  <span className="text-xs text-ink-muted">Sân bay Quốc tế Đà Nẵng</span>
+                </div>
+              </div>
+            </div>
+
             {/* Official notice */}
-            <div className="p-4 rounded bg-forest/5 border border-forest/10 flex items-center space-x-3 text-xs text-ink-muted">
+            <div className="p-3.5 rounded bg-forest/5 border border-forest/10 flex items-center space-x-3 text-xs text-ink-muted">
               <Compass className="w-4 h-4 text-champagne shrink-0" />
               <span>
-                <strong>Lưu ý:</strong> Vị trí chính thức sẽ được cập nhật theo dự án thực tế.
+                <strong>Vị trí:</strong> Vịnh Hải Vân, Đường Nguyễn Tất Thành nối dài, Q. Liên Chiểu, TP. Đà Nẵng.
               </span>
             </div>
           </div>
@@ -83,7 +108,7 @@ export const Location: React.FC = () => {
             <div className="relative rounded-luxury overflow-hidden shadow-card border border-forest/10 aspect-[16/9]">
               <img
                 src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=85"
-                alt="Cảnh quan thiên nhiên vịnh biển thanh bình gợi cảm hứng Đà Nẵng"
+                alt="Cảnh quan thiên nhiên vịnh biển Hải Vân Đà Nẵng"
                 loading="lazy"
                 className="w-full h-full object-cover"
               />
@@ -94,11 +119,11 @@ export const Location: React.FC = () => {
                     CẢM HỨNG ĐỊA ĐIỂM
                   </span>
                   <span className="font-serif text-lg font-light">
-                    Vịnh biển miền nhiệt đới Đà Nẵng
+                    Vịnh biển Hải Vân Đà Nẵng
                   </span>
                 </div>
                 <span className="text-xs text-sand/80 bg-forest-dark/70 px-2.5 py-1 rounded border border-white/10">
-                  Ảnh cảm hứng
+                  Cảnh quan thực tế
                 </span>
               </div>
             </div>
@@ -109,10 +134,10 @@ export const Location: React.FC = () => {
                 <div className="flex items-center space-x-2">
                   <MapPin className="w-4 h-4 text-champagne" />
                   <span className="text-xs font-mono tracking-widest uppercase text-champagne">
-                    SƠ ĐỒ MINH HỌA ĐỊNH HƯỚNG KHÔNG GIAN
+                    SƠ ĐỒ TỔ CHỨC KHÔNG GIAN DỰ ÁN
                   </span>
                 </div>
-                <span className="text-[11px] text-sand/60 italic">Sơ đồ minh họa</span>
+                <span className="text-[11px] text-sand/60 italic">Quy mô 240ha</span>
               </div>
 
               {/* Vector diagram showing concept axes */}
@@ -121,23 +146,23 @@ export const Location: React.FC = () => {
                   
                   {/* Axis 1 */}
                   <div className="p-3 rounded bg-white/5 border border-white/10 flex flex-col items-center">
-                    <span className="text-champagne font-mono text-xs mb-1">TRỤC VEN BIỂN</span>
-                    <span className="font-serif text-sm text-sand font-medium">Bờ vịnh & Không gian xanh</span>
-                    <span className="text-[11px] text-sand/60 mt-1">Định hướng sinh thái nghỉ dưỡng</span>
+                    <span className="text-champagne font-mono text-xs mb-1">TRỤC BIỂN & DU THUYỀN</span>
+                    <span className="font-serif text-sm text-sand font-medium">2km Bờ Biển Riêng</span>
+                    <span className="text-[11px] text-sand/60 mt-1">Bến du thuyền & Beach Club</span>
                   </div>
 
                   {/* Core Sanctuary */}
                   <div className="p-3.5 rounded bg-champagne/15 border border-champagne/40 flex flex-col items-center shadow-gold">
-                    <span className="text-champagne font-mono text-xs font-bold mb-1">VINHOMES</span>
-                    <span className="font-serif text-base text-white font-semibold">Tâm Điểm An Cư</span>
-                    <span className="text-[11px] text-champagne-light/90 mt-1">Không gian riêng tư biệt lập</span>
+                    <span className="text-champagne font-mono text-xs font-bold mb-1">VINHOMES HẢI VÂN BAY</span>
+                    <span className="font-serif text-base text-white font-semibold">Tâm Điểm Nghỉ Dưỡng</span>
+                    <span className="text-[11px] text-champagne-light/90 mt-1">Biệt thự • Liền kề • Shophouse</span>
                   </div>
 
                   {/* Axis 2 */}
                   <div className="p-3 rounded bg-white/5 border border-white/10 flex flex-col items-center">
-                    <span className="text-champagne font-mono text-xs mb-1">TRỤC KẾT NỐI</span>
-                    <span className="font-serif text-sm text-sand font-medium">Đô thị & Tiện ích dịch vụ</span>
-                    <span className="text-[11px] text-sand/60 mt-1">Giao thương & văn hóa</span>
+                    <span className="text-champagne font-mono text-xs mb-1">HỆ TIỆN ÍCH VINGROUP</span>
+                    <span className="font-serif text-sm text-sand font-medium">Vincom • Vinschool • Vinmec</span>
+                    <span className="text-[11px] text-sand/60 mt-1">Chuẩn mực sống 5 sao</span>
                   </div>
 
                 </div>
