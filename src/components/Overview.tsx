@@ -52,7 +52,7 @@ export const Overview: React.FC = () => {
           <div className="lg:col-span-6 flex flex-col items-start lg:pl-4">
             {/* Section Index / Label */}
             <div className="flex items-center space-x-2 text-champagne text-xs sm:text-[13px] font-semibold tracking-[0.25em] uppercase mb-4">
-              <span>01 / CÂU CHUYỆN AZURE BAY</span>
+              <span>01 / CÂU CHUYỆN VINHOMES</span>
             </div>
 
             {/* Heading: Elegantly structured into 2 lines */}
@@ -64,10 +64,10 @@ export const Overview: React.FC = () => {
             {/* Narrative Body: ~95 words, sincere and evocative */}
             <div className="text-ink-muted text-base sm:text-[15.5px] leading-relaxed space-y-4 mb-8">
               <p>
-                Lấy cảm hứng từ nét đẹp nguyên sơ của bờ biển Đà Nẵng, AZURE BAY được kiến tạo như một ốc đảo an trú cho những tâm hồn tìm kiếm sự tĩnh tại. Không gian nơi đây xóa nhòa ranh giới giữa kiến trúc và thiên nhiên, mở ra nguồn ánh sáng tự nhiên ngập tràn cùng làn gió biển tươi mát.
+                Được kiến tạo từ chuẩn mực sống thượng lưu và phồn vinh, VINHOMES mang đến không gian an trú lý tưởng cho những chủ nhân danh giá. Nơi đây xóa nhòa mọi giới hạn giữa kiến trúc hiện đại và hệ sinh thái xanh mát ngập tràn năng lượng.
               </p>
               <p>
-                Đây là nơi mỗi sớm mai bắt đầu bằng tiếng sóng vỗ dịu êm và mỗi buổi chiều là khoảnh khắc sum vầy trọn vẹn bên những người thân yêu, trong một bầu không khí thuần khiết và biệt lập.
+                Đây là nơi mỗi sớm mai bắt đầu bằng sự thanh bình thuần khiết và mỗi buổi chiều là khoảnh khắc sum vầy trọn vẹn bên những người thân yêu, trong một quần thể đô thị tinh hoa và an ninh tuyệt đối.
               </p>
             </div>
 

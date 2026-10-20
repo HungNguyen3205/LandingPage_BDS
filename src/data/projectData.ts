@@ -12,10 +12,10 @@ import type {
 } from '../types';
 
 export const projectMeta: ProjectMetadata = {
-  brandName: 'AZURE BAY',
-  brandSubtitle: 'COASTAL RESIDENCES',
-  tagline: 'Nơi biển chạm đến bình yên.',
-  secondaryTagline: 'Không gian sống tinh tế, mở ra một nhịp sống an nhiên bên thiên nhiên.',
+  brandName: 'VINHOMES',
+  brandSubtitle: 'LUXURY RESIDENCES',
+  tagline: 'Nơi khởi nguồn cuộc sống thịnh vượng.',
+  secondaryTagline: 'Không gian sống sinh thái tinh tế, mở ra một chuẩn mực an nhiên và thịnh vượng.',
   disclaimerShort: 'Dự án, hình ảnh, giá và thông số trên website mang tính minh họa.',
   disclaimerDetailed: 'Đây là website giới thiệu dự án mang tính chất minh họa giao diện và ý tưởng thiết kế. Tất cả hình ảnh, giá bán tham khảo và thông số kỹ thuật chưa phải thông tin pháp lý hoặc cam kết thương mại chính thức.',
   designerCredit: 'Thiết kế bởi DANAVA Solutions',
@@ -234,8 +234,8 @@ export const galleryData: GalleryItem[] = [
 export const faqData: FAQItem[] = [
   {
     id: 'faq-1',
-    question: 'Azure Bay có những loại hình sản phẩm nào?',
-    answer: 'Azure Bay giới thiệu ba dòng sản phẩm nghỉ dưỡng chính: Ocean Villa (biệt thự nghỉ dưỡng trực diện biển), Garden Residence (biệt thự sân vườn xanh mát) và Sky Collection (căn hộ nghỉ dưỡng tầng cao). Từng dòng sản phẩm được thiết kế để đáp ứng nhu cầu an cư, nghỉ dưỡng gia đình và phong cách sống tĩnh tại khác nhau.',
+    question: 'Vinhomes có những loại hình sản phẩm nào?',
+    answer: 'Vinhomes giới thiệu ba dòng sản phẩm cao cấp chính: Ocean Villa (biệt thự nghỉ dưỡng sang trọng), Garden Residence (biệt thự sân vườn xanh mát) và Sky Collection (căn hộ cao cấp tầng cao). Từng dòng sản phẩm được thiết kế để đáp ứng nhu cầu an cư, đầu tư sinh lời và phong cách sống thượng lưu.',
   },
   {
     id: 'faq-2',

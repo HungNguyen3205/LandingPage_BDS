@@ -25,7 +25,7 @@ export const PrivacyPolicyPage: React.FC = () => {
   const [isMobileTocOpen, setIsMobileTocOpen] = useState<boolean>(false);
 
   useEffect(() => {
-    document.title = 'Chính Sách Bảo Mật | AZURE BAY Coastal Residences';
+    document.title = 'Chính Sách Bảo Mật | VINHOMES Luxury Residences';
 
     // Update meta description
     let metaDesc = document.querySelector('meta[name="description"]');
@@ -36,7 +36,7 @@ export const PrivacyPolicyPage: React.FC = () => {
     }
     metaDesc.setAttribute(
       'content',
-      'Chính sách bảo mật thông tin khách hàng tại Azure Bay. Minh bạch trong cách tiếp nhận, mục đích sử dụng và luồng xử lý dữ liệu đăng ký tư vấn.'
+      'Chính sách bảo mật thông tin khách hàng tại Vinhomes. Minh bạch trong cách tiếp nhận, mục đích sử dụng và luồng xử lý dữ liệu đăng ký tư vấn.'
     );
 
     // Scroll spy via IntersectionObserver
@@ -238,7 +238,7 @@ export const PrivacyPolicyPage: React.FC = () => {
                 Chính sách bảo mật này áp dụng riêng cho các thông tin do người dùng chủ động cung cấp thông qua các biểu mẫu đăng ký nhận tư vấn trên website <strong>{projectMeta.brandName}</strong> (bao gồm form đăng ký tại trang Liên hệ <code className="text-xs bg-sand px-1.5 py-0.5 rounded font-mono text-forest">/lien-he</code> và biểu mẫu tư vấn đặt tại Trang chủ).
               </p>
               <p className="text-ink-muted text-sm">
-                Chính sách không áp dụng cho các website, liên kết hoặc dịch vụ của bên thứ ba không thuộc quyền quản lý trực tiếp của Azure Bay.
+                Chính sách không áp dụng cho các website, liên kết hoặc dịch vụ của bên thứ ba không thuộc quyền quản lý trực tiếp của Vinhomes.
               </p>
             </section>
 
@@ -280,7 +280,7 @@ export const PrivacyPolicyPage: React.FC = () => {
                 Dữ liệu thu thập từ biểu mẫu chỉ được sử dụng cho các mục đích cụ thể sau:
               </p>
               <ol className="list-decimal pl-5 space-y-1.5 text-sm sm:text-[15px] text-ink-muted">
-                <li>Tiếp nhận và ghi nhận chính xác nhu cầu tìm hiểu về dự án Azure Bay.</li>
+                <li>Tiếp nhận và ghi nhận chính xác nhu cầu tìm hiểu về dự án Vinhomes.</li>
                 <li>Chuyên viên tư vấn liên hệ phản hồi, cung cấp thông tin, hình ảnh và giải đáp câu hỏi theo đúng bộ sưu tập và khung thời gian khách hàng đã đăng ký.</li>
                 <li>Theo dõi, quản lý tiến độ xử lý yêu cầu tư vấn nhằm đảm bảo quyền lợi và sự chu đáo đối với khách hàng.</li>
               </ol>
@@ -309,7 +309,7 @@ export const PrivacyPolicyPage: React.FC = () => {
                 </p>
                 <div className="bg-sand p-4 rounded border border-champagne/30 text-xs sm:text-[13px] text-ink-muted">
                   <strong className="text-forest block mb-1">Trạng thái hiện tại trên bản demo:</strong>
-                  Website Azure Bay hiện đang hoạt động ở chế độ giới thiệu ý tưởng thiết kế giao diện (demo). Biểu mẫu đăng ký hiện tại <strong>chưa gửi dữ liệu đến Google Sheets, Telegram hay bất kỳ hệ thống lưu trữ bên ngoài nào</strong>. Thông tin điền trong bản demo chỉ phục vụ kiểm tra trải nghiệm người dùng ngay tại trình duyệt.
+                  Website Vinhomes hiện đang hoạt động ở chế độ giới thiệu ý tưởng thiết kế giao diện (demo). Biểu mẫu đăng ký hiện tại <strong>chưa gửi dữ liệu đến Google Sheets, Telegram hay bất kỳ hệ thống lưu trữ bên ngoài nào</strong>. Thông tin điền trong bản demo chỉ phục vụ kiểm tra trải nghiệm người dùng ngay tại trình duyệt.
                 </div>
               </div>
             </section>
@@ -386,7 +386,7 @@ export const PrivacyPolicyPage: React.FC = () => {
                 <span>Cookie và công cụ đo lường</span>
               </h2>
               <p>
-                Mô tả đúng thực trạng kỹ thuật của website Azure Bay:
+                Mô tả đúng thực trạng kỹ thuật của website Vinhomes:
               </p>
               <p className="text-sm sm:text-[15px] text-ink-muted">
                 Website <strong>không cài đặt</strong> các công cụ theo dõi hành vi người dùng của bên thứ ba như Google Analytics, Google Tag Manager, Meta Pixel (Facebook Pixel), TikTok Pixel hay bất kỳ mạng lưới quảng cáo tái tiếp thị (retargeting) nào.
@@ -405,7 +405,7 @@ export const PrivacyPolicyPage: React.FC = () => {
                 <span>Cập nhật chính sách</span>
               </h2>
               <p className="text-sm sm:text-[15px] text-ink-muted">
-                Nội dung chính sách bảo mật này có thể được bổ sung, hoàn thiện khi dự án Azure Bay hoàn tất thủ tục pháp lý và chính thức triển khai vận hành thương mại. Mọi sửa đổi sẽ được công bố trực tiếp tại trang này cùng ngày cập nhật có hiệu lực.
+                Nội dung chính sách bảo mật này có thể được bổ sung, hoàn thiện khi dự án Vinhomes hoàn tất thủ tục pháp lý và chính thức triển khai vận hành thương mại. Mọi sửa đổi sẽ được công bố trực tiếp tại trang này cùng ngày cập nhật có hiệu lực.
               </p>
               <div className="font-mono text-xs text-forest/80 pt-1">
                 Ngày cập nhật văn bản: <strong>{privacyPolicyConfig.lastUpdatedDate}</strong>
@@ -426,7 +426,7 @@ export const PrivacyPolicyPage: React.FC = () => {
                 to="/"
                 className="text-xs text-ink-muted hover:text-forest transition-colors font-mono"
               >
-                Về Trang chủ Azure Bay
+                Về Trang chủ Vinhomes
               </Link>
             </div>
 

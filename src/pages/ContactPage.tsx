@@ -23,7 +23,7 @@ export const ContactPage: React.FC = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = 'Liên Hệ & Đăng Ký Tư Vấn | AZURE BAY Coastal Residences';
+    document.title = 'Liên Hệ & Đăng Ký Tư Vấn | VINHOMES Luxury Residences';
 
     // Meta description update
     let metaDesc = document.querySelector('meta[name="description"]');
@@ -34,7 +34,7 @@ export const ContactPage: React.FC = () => {
     }
     metaDesc.setAttribute(
       'content',
-      'Liên hệ và đăng ký nhận tư vấn dự án bất động sản nghỉ dưỡng Azure Bay. Chia sẻ nhu cầu của bạn để nhận thông tin phù hợp về không gian sống và các bộ sưu tập.'
+      'Liên hệ và đăng ký nhận tư vấn dự án bất động sản cao cấp Vinhomes. Chia sẻ nhu cầu của bạn để nhận thông tin phù hợp về không gian sống và các bộ sưu tập.'
     );
   }, []);
 
@@ -81,7 +81,7 @@ export const ContactPage: React.FC = () => {
 
             {/* Description */}
             <p className="text-ink-muted text-base sm:text-lg leading-relaxed max-w-2xl">
-              Chia sẻ nhu cầu của bạn để nhận thông tin phù hợp về không gian sống và các bộ sưu tập tại Azure Bay.
+              Chia sẻ nhu cầu của bạn để nhận thông tin phù hợp về không gian sống và các bộ sưu tập tại Vinhomes.
             </p>
 
             {/* Minimalist Champagne Accent Line */}
@@ -111,7 +111,7 @@ export const ContactPage: React.FC = () => {
                 </h2>
 
                 <p className="text-ink-muted text-sm sm:text-[15px] leading-relaxed mb-6 font-light">
-                  Mỗi yêu cầu đăng ký được tiếp nhận chu đáo bởi đội ngũ tư vấn am hiểu sâu sắc về kiến trúc, cảnh quan và phong cách sống tại Azure Bay, đảm bảo cung cấp giải pháp an cư và nghỉ dưỡng tối ưu nhất.
+                  Mỗi yêu cầu đăng ký được tiếp nhận chu đáo bởi đội ngũ tư vấn am hiểu sâu sắc về kiến trúc, cảnh quan và phong cách sống tại Vinhomes, đảm bảo cung cấp giải pháp an cư và đầu tư tối ưu nhất.
                 </p>
 
                 {/* Contact Information Lines (Truthful data only, graceful placeholder when unconfigured) */}
@@ -176,14 +176,14 @@ export const ContactPage: React.FC = () => {
               <div className="rounded-luxury overflow-hidden border border-forest/10 shadow-card aspect-[16/11] relative group">
                 <img
                   src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=85"
-                  alt="Không gian kiến trúc mở ven biển tại Azure Bay"
+                  alt="Không gian kiến trúc mở sang trọng tại Vinhomes"
                   loading="lazy"
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-forest-dark/80 via-transparent to-transparent pointer-events-none" />
                 <div className="absolute bottom-4 left-5 right-5 text-white pointer-events-none">
                   <span className="text-[10px] font-mono tracking-widest text-champagne uppercase block">
-                    AZURE BAY LIFESTYLE
+                    VINHOMES LIFESTYLE
                   </span>
                   <span className="font-serif text-sm sm:text-base font-light">
                     Không gian nghỉ dưỡng đón ánh sáng tự nhiên
@@ -286,7 +286,7 @@ export const ContactPage: React.FC = () => {
             <h3 className="font-serif text-xl font-medium text-forest mb-4">Vị trí thực tế</h3>
             <div className="rounded-luxury overflow-hidden border border-forest/10 shadow-subtle aspect-[16/9]">
               <iframe
-                title="Bản đồ vị trí văn phòng Azure Bay"
+                title="Bản đồ vị trí văn phòng Vinhomes"
                 src={contactConfig.officialMapEmbedUrl}
                 width="100%"
                 height="100%"

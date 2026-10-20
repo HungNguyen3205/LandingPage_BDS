@@ -25,7 +25,7 @@ export const Hero: React.FC = () => {
       <div className="absolute inset-0 z-0">
         <img
           src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=2000&q=85"
-          alt="Toàn cảnh biệt thự nghỉ dưỡng ven biển Azure Bay lúc hoàng hôn"
+          alt="Toàn cảnh biệt thự và căn hộ cao cấp Vinhomes lúc hoàng hôn"
           loading="eager"
           fetchPriority="high"
           className="w-full h-full object-cover object-center transform scale-100 transition-transform duration-1000 ease-out"

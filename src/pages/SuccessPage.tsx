@@ -9,7 +9,7 @@ export const SuccessPage: React.FC = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = 'Đăng Ký Thành Công | AZURE BAY Coastal Residences';
+    document.title = 'Đăng Ký Thành Công | VINHOMES Luxury Residences';
   }, []);
 
   const handleCopyCode = () => {
@@ -31,7 +31,7 @@ export const SuccessPage: React.FC = () => {
         </span>
 
         <h1 className="font-serif text-3xl sm:text-4xl font-normal text-forest mb-4">
-          Cảm ơn bạn đã kết nối cùng Azure Bay
+          Cảm ơn bạn đã kết nối cùng Vinhomes
         </h1>
 
         <p className="text-ink-muted text-sm sm:text-base leading-relaxed mb-6 font-light">

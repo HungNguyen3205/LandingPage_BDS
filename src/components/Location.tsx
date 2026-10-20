@@ -128,7 +128,7 @@ export const Location: React.FC = () => {
 
                   {/* Core Sanctuary */}
                   <div className="p-3.5 rounded bg-champagne/15 border border-champagne/40 flex flex-col items-center shadow-gold">
-                    <span className="text-champagne font-mono text-xs font-bold mb-1">AZURE BAY</span>
+                    <span className="text-champagne font-mono text-xs font-bold mb-1">VINHOMES</span>
                     <span className="font-serif text-base text-white font-semibold">Tâm Điểm An Cư</span>
                     <span className="text-[11px] text-champagne-light/90 mt-1">Không gian riêng tư biệt lập</span>
                   </div>

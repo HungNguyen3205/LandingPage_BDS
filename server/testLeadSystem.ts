@@ -77,7 +77,7 @@ async function runTests() {
   if (valResult.sanitizedData) {
     const row = googleSheetsService.toRowValues(valResult.sanitizedData);
     assert(row.length === 10, `Hàng xuất ra phải có đúng 10 cột (thực tế: ${row.length})`);
-    assert(row[0].startsWith('AB-'), `Mã đăng ký phải có tiền tố AB- (thực tế: ${row[0]})`);
+    assert(row[0].startsWith('VH-'), `Mã đăng ký phải có tiền tố VH- (thực tế: ${row[0]})`);
     assert(row[3] === "'0988123456", `Số điện thoại phải giữ số 0 (thực tế: ${row[3]})`);
     assert(row[5] === 'Ocean Villa', `Sản phẩm quan tâm khớp (thực tế: ${row[5]})`);
     assert(row[8] === 'facebook', `Nguồn tiếp cận khớp (thực tế: ${row[8]})`);

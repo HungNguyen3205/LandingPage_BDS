@@ -28,7 +28,7 @@ export const ConsultationForm: React.FC<ConsultationFormProps> = ({ preSelectedP
               </h2>
 
               <p className="text-sand/85 text-base leading-relaxed mb-8 font-light">
-                Mỗi căn biệt thự và căn hộ tại Azure Bay là một tác phẩm được tạo tác riêng cho gia chủ yêu chuộng sự tĩnh tại bên bờ biển. Đội ngũ tư vấn sẽ gửi đến quý khách trọn bộ tài liệu độc quyền và hỗ trợ giải đáp mọi thắc mắc chu đáo nhất.
+                Mỗi căn biệt thự và căn hộ tại Vinhomes là một tuyệt tác được tạo tác riêng cho gia chủ yêu chuộng chuẩn mực sống thượng lưu và an nhiên. Đội ngũ tư vấn sẽ gửi đến quý khách trọn bộ tài liệu độc quyền và hỗ trợ giải đáp mọi thắc mắc chu đáo nhất.
               </p>
 
               {/* Trust & Privacy Points */}

@@ -1,5 +1,5 @@
 /**
- * Định nghĩa kiểu dữ liệu cho Backend tiếp nhận Lead - AZURE BAY
+ * Định nghĩa kiểu dữ liệu cho Backend tiếp nhận Lead - VINHOMES
  */
 
 export interface LeadSubmissionPayload {

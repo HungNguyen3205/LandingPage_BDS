@@ -26,7 +26,7 @@ export const FAQ: React.FC = () => {
             Giải đáp thông tin dự án.
           </h2>
           <p className="text-ink-muted text-base leading-relaxed">
-            Các câu hỏi phổ biến về sản phẩm, định hướng phát triển và phương thức tiếp cận thông tin chính thức từ Azure Bay.
+            Các câu hỏi phổ biến về sản phẩm, định hướng phát triển và phương thức tiếp cận thông tin chính thức từ Vinhomes.
           </p>
         </div>
 

@@ -5,7 +5,7 @@ import { projectMeta } from '../data/projectData';
 
 export const NotFoundPage: React.FC = () => {
   useEffect(() => {
-    document.title = '404 - Không Tìm Thấy Trang | AZURE BAY';
+    document.title = '404 - Không Tìm Thấy Trang | VINHOMES';
 
     let metaDesc = document.querySelector('meta[name="description"]');
     if (!metaDesc) {
@@ -15,7 +15,7 @@ export const NotFoundPage: React.FC = () => {
     }
     metaDesc.setAttribute(
       'content',
-      'Đường dẫn bạn yêu cầu không tồn tại hoặc đã thay đổi tại Azure Bay. Mời bạn trở về Trang chủ hoặc liên hệ để được hỗ trợ.'
+      'Đường dẫn bạn yêu cầu không tồn tại hoặc đã thay đổi tại Vinhomes. Mời bạn trở về Trang chủ hoặc liên hệ để được hỗ trợ.'
     );
   }, []);
 

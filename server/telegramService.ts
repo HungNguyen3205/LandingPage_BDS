@@ -27,7 +27,7 @@ export class TelegramService {
       : '<i>Không có ghi chú thêm</i>';
 
     return (
-      `🌿 <b>ĐĂNG KÝ TƯ VẤN MỚI — AZURE BAY</b>\n\n` +
+      `🌿 <b>ĐĂNG KÝ TƯ VẤN MỚI — VINHOMES</b>\n\n` +
       `▫️ <b>Mã đăng ký:</b> <code>${lead.registrationCode}</code>\n` +
       `▫️ <b>Thời gian:</b> ${lead.timestamp} (Giờ VN)\n` +
       `▫️ <b>Khách hàng:</b> ${safeName}\n` +

@@ -1,6 +1,6 @@
 <?php
 /**
- * API Endpoint tiếp nhận đăng ký tư vấn AZURE BAY trên máy chủ PHP / cPanel / LiteSpeed (AZDIGI)
+ * API Endpoint tiếp nhận đăng ký tư vấn VINHOMES trên máy chủ PHP / cPanel / LiteSpeed (AZDIGI)
  * Endpoint: POST /api/consultation
  */
 
@@ -97,7 +97,7 @@ $displayPhone = str_starts_with($cleanPhone, '+84') ? '0' . substr($cleanPhone, 
 date_default_timezone_set('Asia/Ho_Chi_Minh');
 $now = date('Y-m-d H:i:s');
 $randCode = mt_rand(1000, 9999);
-$registrationCode = 'AB-' . date('Ymd') . '-' . $randCode;
+$registrationCode = 'VH-' . date('Ymd') . '-' . $randCode;
 
 $sourceText = $pageSource;
 if (!empty($utmSource)) {
@@ -159,7 +159,7 @@ if (!empty($botToken) && !empty($chatId)) {
     $safeSource = htmlspecialchars($sourceText, ENT_QUOTES, 'UTF-8');
     $safeNotes = !empty($notes) ? htmlspecialchars(mb_substr($notes, 0, 500), ENT_QUOTES, 'UTF-8') : '<i>Không có ghi chú thêm</i>';
 
-    $msg = "🌿 <b>ĐĂNG KÝ TƯ VẤN MỚI — AZURE BAY</b>\n\n"
+    $msg = "🌿 <b>ĐĂNG KÝ TƯ VẤN MỚI — VINHOMES</b>\n\n"
          . "▫️ <b>Mã đăng ký:</b> <code>{$registrationCode}</code>\n"
          . "▫️ <b>Thời gian:</b> {$now} (Giờ VN)\n"
          . "▫️ <b>Khách hàng:</b> {$safeName}\n"

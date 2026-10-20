@@ -1,6 +1,6 @@
 <?php
 /**
- * Cấu hình hệ thống tiếp nhận tư vấn AZURE BAY (Dành cho cPanel / Hosting AZDIGI)
+ * Cấu hình hệ thống tiếp nhận tư vấn VINHOMES (Dành cho cPanel / Hosting AZDIGI)
  */
 
 return [

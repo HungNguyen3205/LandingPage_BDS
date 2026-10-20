@@ -36,14 +36,14 @@ export function getVietnamTimestamp(date: Date = new Date()): string {
 }
 
 /**
- * Sinh mã đăng ký duy nhất: AB-YYYYMMDD-XXXX (4 ký tự ngẫu nhiên)
+ * Sinh mã đăng ký duy nhất: VH-YYYYMMDD-XXXX (4 ký tự ngẫu nhiên)
  */
 export function generateRegistrationCode(date: Date = new Date()): string {
   const y = date.getFullYear();
   const m = String(date.getMonth() + 1).padStart(2, '0');
   const d = String(date.getDate()).padStart(2, '0');
   const randomSuffix = Math.floor(1000 + Math.random() * 9000);
-  return `AB-${y}${m}${d}-${randomSuffix}`;
+  return `VH-${y}${m}${d}-${randomSuffix}`;
 }
 
 /**

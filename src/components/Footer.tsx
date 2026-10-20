@@ -51,7 +51,7 @@ export const Footer: React.FC = () => {
                 }
               }}
               className="flex flex-col text-left mb-5 focus:outline-none focus-visible:ring-2 focus-visible:ring-champagne rounded-sm"
-              aria-label="AZURE BAY - Lên đầu trang"
+              aria-label="VINHOMES - Lên đầu trang"
             >
               <span className="font-serif text-2xl font-bold tracking-[0.2em] text-white">
                 {projectMeta.brandName}
@@ -62,7 +62,7 @@ export const Footer: React.FC = () => {
             </Link>
 
             <p className="text-sand/75 text-sm leading-relaxed max-w-sm mb-6 font-light">
-              Tuyệt tác không gian sống nghỉ dưỡng ven biển, nơi giao hòa giữa kiến trúc mở đương đại và vẻ đẹp trường tồn của đại dương.
+              Tuyệt tác không gian sống thượng lưu, nơi giao hòa giữa kiến trúc biểu tượng và hệ sinh thái đẳng cấp quốc tế.
             </p>
 
             <div className="text-xs text-sand/60 italic">

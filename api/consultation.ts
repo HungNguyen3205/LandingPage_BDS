@@ -105,7 +105,7 @@ export default async function handler(
     });
     const randCode = Math.floor(1000 + Math.random() * 9000);
     const dateStr = new Date().toISOString().slice(0, 10).replace(/-/g, '');
-    const registrationCode = `AB-${dateStr}-${randCode}`;
+    const registrationCode = `VH-${dateStr}-${randCode}`;
 
     let sourceText = pageSource;
     if (utmSource) {
@@ -157,7 +157,7 @@ export default async function handler(
         const safeNotes = notes ? escapeTelegramHtml(notes.slice(0, 500)) : '<i>Không có ghi chú thêm</i>';
 
         const msg =
-          `🌿 <b>ĐĂNG KÝ TƯ VẤN MỚI — AZURE BAY</b>\n\n` +
+          `🌿 <b>ĐĂNG KÝ TƯ VẤN MỚI — VINHOMES</b>\n\n` +
           `▫️ <b>Mã đăng ký:</b> <code>${registrationCode}</code>\n` +
           `▫️ <b>Thời gian:</b> ${now} (Giờ VN)\n` +
           `▫️ <b>Khách hàng:</b> ${safeName}\n` +

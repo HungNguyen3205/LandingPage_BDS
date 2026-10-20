@@ -100,10 +100,10 @@ export const QuickContact: React.FC = () => {
           <div className="flex items-center justify-between space-x-3">
             <div className="flex flex-col text-left">
               <span className="text-[10px] text-champagne font-mono tracking-wider uppercase">
-                AZURE BAY
+                VINHOMES
               </span>
               <span className="text-xs font-serif text-white truncate max-w-[150px]">
-                Nghỉ dưỡng ven biển
+                Bất động sản cao cấp
               </span>
             </div>
 

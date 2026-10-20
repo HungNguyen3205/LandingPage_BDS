@@ -1,6 +1,6 @@
-# Hướng Dẫn Tích Hợp Hệ Thống Tiếp Nhận Đăng Ký Tư Vấn AZURE BAY
+# Hướng Dẫn Tích Hợp Hệ Thống Tiếp Nhận Đăng Ký Tư Vấn VINHOMES
 
-Tài liệu này hướng dẫn quản trị viên cách cấu hình Google Sheets và Telegram Bot để website **AZURE BAY** chuyển từ chế độ Demo sang chế độ tiếp nhận đăng ký tư vấn thật với giao diện quản lý khách hàng tối ưu nhất.
+Tài liệu này hướng dẫn quản trị viên cách cấu hình Google Sheets và Telegram Bot để website **VINHOMES** chuyển từ chế độ Demo sang chế độ tiếp nhận đăng ký tư vấn thật với giao diện quản lý khách hàng tối ưu nhất.
 
 ---
 
@@ -10,7 +10,7 @@ Bảng tính được tinh gọn từ 16 cột xuống **10 cột quan trọng n
 
 | Cột | Tên Cột | Ý nghĩa cho Sales & Báo Cáo | Định dạng |
 | :---: | :--- | :--- | :--- |
-| **A** | `Mã đăng ký` | Mã tra cứu độc nhất (ví dụ: `AB-20261020-4821`) | Văn bản |
+| **A** | `Mã đăng ký` | Mã tra cứu độc nhất (ví dụ: `VH-20261020-4821`) | Văn bản |
 | **B** | `Thời gian` | Thời điểm khách gửi đăng ký (Giờ VN) | `YYYY-MM-DD HH:mm:ss` |
 | **C** | `Họ tên` | Tên khách hàng để xưng hô khi liên hệ | Văn bản |
 | **D** | `Số điện thoại` | Số điện thoại liên hệ (bảo toàn số 0 ở đầu) | Chuỗi (tiền tố `'`) |
@@ -37,7 +37,7 @@ Trong file Google Sheet của bạn:
 
 ```javascript
 /**
- * AZURE BAY - Hệ Thống Tiếp Nhận Lead Bất Động Sản (Tối ưu 10 cột)
+ * VINHOMES - Hệ Thống Tiếp Nhận Lead Bất Động Sản (Tối ưu 10 cột)
  */
 
 var SHEET_NAME = "Đăng ký tư vấn";
@@ -69,7 +69,7 @@ function setupSheet() {
   headerRange.setValues([headers]);
   headerRange.setFontWeight("bold");
   headerRange.setFontColor("#ffffff");
-  headerRange.setBackground("#0f172a"); // Màu xanh than sang trọng Azure
+  headerRange.setBackground("#0f172a"); // Màu xanh than sang trọng Vinhomes Navy
   headerRange.setHorizontalAlignment("center");
   headerRange.setVerticalAlignment("middle");
   sheet.setRowHeight(1, 38);

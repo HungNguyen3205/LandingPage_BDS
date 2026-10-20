@@ -121,17 +121,17 @@ export const Header: React.FC = () => {
                 }
               }}
               className="group flex flex-col text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-champagne rounded-sm"
-              aria-label="AZURE BAY - Trang chủ"
+              aria-label="VINHOMES - Trang chủ"
             >
               <span className={`font-serif text-xl sm:text-2xl font-bold tracking-[0.2em] transition-colors duration-200 ${
                 showSolidHeader ? 'text-forest' : 'text-white'
               }`}>
-                AZURE BAY
+                VINHOMES
               </span>
               <span className={`text-[9px] sm:text-[10px] tracking-[0.3em] font-medium transition-colors duration-200 ${
                 showSolidHeader ? 'text-ink-muted' : 'text-champagne-light/90'
               }`}>
-                COASTAL RESIDENCES
+                LUXURY RESIDENCES
               </span>
             </Link>
 
@@ -231,10 +231,10 @@ export const Header: React.FC = () => {
           <div className="flex items-center justify-between pb-6 border-b border-forest/10">
             <div className="flex flex-col text-left">
               <span className="font-serif text-lg font-bold tracking-[0.15em] text-forest">
-                AZURE BAY
+                VINHOMES
               </span>
               <span className="text-[9px] tracking-[0.25em] text-ink-muted font-medium">
-                COASTAL RESIDENCES
+                LUXURY RESIDENCES
               </span>
             </div>
             <button
