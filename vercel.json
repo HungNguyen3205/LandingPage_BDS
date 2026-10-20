@@ -1,10 +1,12 @@
 {
-  "cleanUrls": true,
-  "routes": [
-    { "src": "/lien-he", "dest": "/index.html" },
-    { "src": "/chinh-sach-bao-mat", "dest": "/index.html" },
-    { "src": "/dang-ky-thanh-cong", "dest": "/index.html" },
-    { "src": "/", "dest": "/index.html" },
-    { "src": "/(.*)", "status": 404, "dest": "/index.html" }
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }
