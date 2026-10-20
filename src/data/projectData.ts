@@ -113,6 +113,20 @@ export const productsData: ProductItem[] = [
     description: 'Sở hữu 2 mặt tiền thoáng rộng với tầm nhìn hướng trọn vịnh biển và dòng suối mát lành, kiến tạo không gian an cư thượng lưu biệt lập tuyệt đối.',
     image: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=85',
     tags: ['2 Mặt tiền', 'View suối & biển', 'Phân khu Đảo Ngọc', 'Hàng ngoại giao'],
+    specs: {
+      subdivision: 'Phân khu Đảo Ngọc (Dãy Lâm Phong)',
+      floors: '3 tầng + 1 tum',
+      bedrooms: '4 – 5 Phòng ngủ Master',
+      view: 'Trực diện Vịnh biển & Suối tự nhiên',
+      frontage: '2 Mặt tiền thoáng rộng (15m)',
+      legal: 'Sổ hồng sở hữu lâu dài',
+      handover: 'Hoàn thiện mặt ngoài cao cấp',
+      policies: [
+        'Hỗ trợ lãi suất 0% tối đa 24 tháng',
+        'Chiết khấu thanh toán sớm 9%',
+        'Tặng gói Vinmec 100tr & Vinpearl 5 đêm',
+      ],
+    },
   },
   {
     id: 'biet-thu-song-lap',
@@ -124,6 +138,20 @@ export const productsData: ProductItem[] = [
     description: 'Nằm tại phân khu Bạch Vân yên bình, kế bên trường học và suối tự nhiên. Thiết kế 3 tầng sang trọng đón nắng sớm và gió biển trong lành.',
     image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=85',
     tags: ['Kề suối mát mẻ', 'Gần Vinschool', 'Phân khu Bạch Vân', 'Hướng Nam'],
+    specs: {
+      subdivision: 'Phân khu Bạch Vân (Dãy BV)',
+      floors: '3 tầng kiến trúc tân cổ điển',
+      bedrooms: '3 – 4 Phòng ngủ thoáng sáng',
+      view: 'Hướng Nam, kề suối sinh thái & trường học',
+      frontage: 'Mặt tiền 9m – 10m',
+      legal: 'Sổ hồng sở hữu lâu dài',
+      handover: 'Hoàn thiện mặt ngoài cao cấp',
+      policies: [
+        'Vay ngân hàng đến 80% giá trị',
+        'Miễn phí dịch vụ quản lý 2 năm',
+        'Chiết khấu thanh toán sớm 9%',
+      ],
+    },
   },
   {
     id: 'nha-lien-ke',
@@ -135,6 +163,20 @@ export const productsData: ProductItem[] = [
     description: 'Dòng sản phẩm có mức giá tốt nhất dự án, tiềm năng tăng giá và tính thanh khoản vượt trội, kết nối trực tiếp đến các trục đại lộ trung tâm.',
     image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85',
     tags: ['Giá tốt nhất dự án', 'Vị trí khan hiếm', 'Phân khu Đảo Ngọc', 'Còn hàng'],
+    specs: {
+      subdivision: 'Dãy Hồng Châu & Ánh Ngọc (HC - AN)',
+      floors: '4 tầng hiện đại tối ưu công năng',
+      bedrooms: '3 Phòng ngủ + Phòng sinh hoạt',
+      view: 'Trực diện phố đi bộ & công viên',
+      frontage: 'Mặt tiền 5m – 6m',
+      legal: 'Sổ hồng sở hữu lâu dài',
+      handover: 'Xây thô hoàn thiện mặt ngoài',
+      policies: [
+        'Mức giá khởi điểm hấp dẫn nhất toàn khu',
+        'Vay 80%, HTLS 0% trong 24 tháng',
+        'Tiềm năng tăng giá và thanh khoản cao',
+      ],
+    },
   },
   {
     id: 'shophouse-can-ho',
@@ -146,6 +188,20 @@ export const productsData: ProductItem[] = [
     description: 'Đón đầu dòng du khách khổng lồ với tầm nhìn panorama hướng trọn vịnh Hải Vân, tối ưu hóa công năng vừa ở vừa kinh doanh sinh lời bền vững.',
     image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=85',
     tags: ['Mặt tiền đại lộ', 'Khai thác cho thuê', 'Tiện ích 5 sao', 'Đón đầu tương lai'],
+    specs: {
+      subdivision: 'Phân khu Vịnh Mây & Tinh Vân',
+      floors: 'Shophouse 5 tầng / Căn hộ cao cấp',
+      bedrooms: '1 – 3 Phòng ngủ nghỉ dưỡng',
+      view: 'Panorama toàn cảnh Vịnh & Bến du thuyền',
+      frontage: 'Mặt tiền đại lộ thương mại sầm uất',
+      legal: 'Sở hữu lâu dài / Thương mại dịch vụ',
+      handover: 'Nội thất tiêu chuẩn 5 sao quốc tế',
+      policies: [
+        'Khai thác vận hành cho thuê du lịch cao cấp',
+        'Chia sẻ doanh thu hoặc hỗ trợ lợi nhuận',
+        'Đặc quyền tiện ích du thuyền & golf',
+      ],
+    },
   },
 ];
 

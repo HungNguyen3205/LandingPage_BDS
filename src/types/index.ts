@@ -14,6 +14,17 @@ export interface ValueItem {
   iconName: 'Sparkles' | 'Trees' | 'Waves' | 'Compass';
 }
 
+export interface ProductSpecs {
+  subdivision: string;
+  floors: string;
+  bedrooms: string;
+  view: string;
+  frontage?: string;
+  legal: string;
+  handover: string;
+  policies: string[];
+}
+
 export interface ProductItem {
   id: string;
   name: string;
@@ -24,6 +35,7 @@ export interface ProductItem {
   description: string;
   image: string;
   tags: string[];
+  specs?: ProductSpecs;
 }
 
 export interface AmenityItem {
