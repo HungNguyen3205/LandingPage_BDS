@@ -25,24 +25,45 @@ interface ProductCardProps {
 const ProductCard: React.FC<ProductCardProps> = ({ product, onSelect }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
+  // Desktop Hover: Di chuột vào thẻ là lật sang mặt sau
   const handleMouseEnter = () => {
-    setIsFlipped(true);
+    if (typeof window !== 'undefined' && window.matchMedia('(hover: hover)').matches) {
+      setIsFlipped(true);
+    }
   };
 
+  // Desktop Hover Out: Rê chuột ra ngoài là lật về mặt trước
   const handleMouseLeave = () => {
-    setIsFlipped(false);
+    if (typeof window !== 'undefined' && window.matchMedia('(hover: hover)').matches) {
+      setIsFlipped(false);
+    }
   };
 
+  // Chạm trên Điện thoại / Bấm trên Desktop:
+  const handleCardClick = () => {
+    const isTouch = typeof window !== 'undefined' && !window.matchMedia('(hover: hover)').matches;
+    if (isTouch) {
+      // Trên điện thoại cảm ứng: Chạm vào thẻ là lật xoay 180 độ; chạm lần nữa là lật lại!
+      setIsFlipped((prev) => !prev);
+    } else {
+      // Trên desktop: Giữ vững trạng thái lật để xem chi tiết
+      setIsFlipped(true);
+    }
+  };
+
+  // Nút lật lại mặt trước (ở cả mặt sau và góc thẻ)
   const handleFlipBack = (e: React.MouseEvent) => {
     e.stopPropagation();
     setIsFlipped(false);
   };
 
+  // Nút xem thông số ở mặt trước
   const handleFrontFlip = (e: React.MouseEvent) => {
     e.stopPropagation();
     setIsFlipped(true);
   };
 
+  // Nút CTA nhận bảng giá: chọn sản phẩm và cuộn xuống form
   const handleCtaClick = (e: React.MouseEvent) => {
     e.stopPropagation();
     onSelect(product);
@@ -53,8 +74,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onSelect }) => {
       className="perspective-1200 w-full h-[550px] group cursor-pointer"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      onClick={handleFrontFlip}
-      aria-label={`Thẻ sản phẩm ${product.name}. Di chuột hoặc chạm để xem chi tiết.`}
+      onClick={handleCardClick}
+      aria-label={`Thẻ sản phẩm ${product.name}. Chạm hoặc di chuột để xem chi tiết thông số và lật thẻ.`}
     >
       <div
         className="w-full h-full relative transform-style-3d transition-transform duration-500 ease-in-out"
